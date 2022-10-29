@@ -17,23 +17,24 @@
 
 1. **Kalkulator**. Program pozwala na wprowadzenie dwóch liczb **zmiennoprzecinkowych** oraz wybrania jednej z cztereach operacji: `+`, `-`, `*`, `/`, odpowiadającym dodawaniu, odejmowaniu, mnożeniu i dzieleniu. Program oblicza wynik operacji wykonanej na dwóch podanych przez użytkownika liczbach.
 
-Schemat działania:
-    - Program prosi o podanie pierwszej liczby,
-    - Program prosi o podanie drugiej liczby,
-    - Program pokazuje jakie operacje są do wyboru i prosi o wybranie jednej z nich,
-	- W przypadku podania nieprawidłowej operacji, program informuje o tym fakcie użytkownika i kończy się lub pozwala na ponowny wybór operacji, aż do skutku,
-	- Program następnie wypisuje na ekranie jakie działanie rozwiązuje i podaje wynik tego działania, po czym kończy działanie.
+	Schemat działania:
+
+    * Program prosi o podanie pierwszej liczby,
+    * Program prosi o podanie drugiej liczby,
+    * Program pokazuje jakie operacje są do wyboru i prosi o wybranie jednej z nich,
+	* W przypadku podania nieprawidłowej operacji, program informuje o tym fakcie użytkownika i kończy się lub pozwala na ponowny wybór operacji, aż do skutku,
+	* Program następnie wypisuje na ekranie jakie działanie rozwiązuje i podaje wynik tego działania, po czym kończy działanie.
 
 
 2. **Pogoda**. Plik `czyPada.png` przedstawia schemat blokowy postępowania w przypadku deszczowej pogody. W zależności od zmiennych logicznych `czyPada` oraz `czyParasol` program powinien zachowywać się wg schematu. Po uruchomieniu program powinien wypisać na ekranie coś podobnego do przykładu poniżej:
 
-
+```
     Czy pada (1) czy nie pada (0)? 1
     A masz parasol (1) czy nie masz (0)? 0
     Poczekaj chwile ...
     Poczekaj chwile ...
     Wyjdź na zewnątrz.
-	
+```	
 
 Długość oczekiwania możesz uzależnić od losowej jakiejś losowej wartości. W tym celu przydać się może znajomość funkcji `random.choice()`.
 
