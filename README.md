@@ -43,7 +43,7 @@ Długość oczekiwania możesz uzależnić od losowej jakiejś losowej wartości
 Alternatywnie, możesz zasymulować dialog z wirtualną postacią.
 
 
-### SPOTKANIE nr 3 (4.11.2022)
+### SPOTKANIE nr 4 (4.11.2022)
 
 4. **Komputer zgaduje liczbę** (PRACA DOMOWA)
 
