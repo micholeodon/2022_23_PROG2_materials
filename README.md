@@ -41,3 +41,13 @@ Długość oczekiwania możesz uzależnić od losowej jakiejś losowej wartości
 3. **Menu / Rozmowa**. Wykorzystując funkcję `while` oraz inne znane Ci mechanizmy języka Python, spróbuj zaprogramować przykładowe menu (przykładowo to co dzieje się kiedy wchodzisz w ustawienia swojego telewizora / monitora), tj. przedstaw użytkownikowi wybór jednej z kilku opcji. Po wyborze, przedstaw kolejny wybór itd. Nie ma zadanej liczby poziomów tego menu. Zaprogramuj też możliwość powrotu do poprzedniego poziomu.
 
 Alternatywnie, możesz zasymulować dialog z wirtualną postacią.
+
+
+### SPOTKANIE nr 3 (4.11.2022)
+
+4. **Komputer zgaduje liczbę** (PRACA DOMOWA)
+
+W tym zadaniu to komputer ma za zadanie zgadnąć liczbę, którą sobie pomyślisz. 
+Użytkownik podaje komputerowi górną granicę przeszukiwania czyli wartość zmiennej `N`. 
+Następnie, komputer podaje zaczyna zgadywać. Użytkownik odpowiada czy podana przez komputer liczba jest za duża, za mała, czy zgadł. Trwa to, do momentu aż komputer zgadnie.
+Zastosuj poznaną na zajęciach strategię bisekcji (dzielenia na pół).
