@@ -1,6 +1,3 @@
-import webbrowser
-
-
 parametry = {
     "jasność": 50,
     "kontrast" : 50,
