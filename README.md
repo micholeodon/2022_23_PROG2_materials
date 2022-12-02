@@ -55,11 +55,11 @@ Zastosuj poznaną na zajęciach strategię bisekcji (dzielenia na pół).
 
 ### SPOTKANIE nr 7 (1.12.2022)
 
-5. **Arabica** (łatwe)
+5. **Roma** (łatwe)
 
-Zaprojektuj klasę przyjmującą liczbę całkowitą z zakresu 1-20 i zamieniająca je na liczbę zapisaną cyframi arabskimi.
+Zaprojektuj klasę przyjmującą liczbę całkowitą z zakresu 1-20 i zamieniająca je na liczbę zapisaną cyframi rzymskimi.
 
-Wskazówka: nagródź się dziś dobrą kawą lub herbatką ;)
+Wskazówka: nagródź się dziś po arabsku lub po rzymsku: dobrą kawą lub herbatką lub pizzą  ;)
 
 6. **Tamagotchi** (trudniejsze)
 
