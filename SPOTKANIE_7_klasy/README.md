@@ -58,3 +58,4 @@ oraz następującymi metodami zmieniającymi stan studenta na inny (wg uznania):
   * metodę pozwalającą stać się szczęśliwym (nazwij ją jak chcesz, w zależności od tego co sprawia Ci radość :)  
   * specjalną metodę, która przyjmie na wejściu innego studenta i sprawi, że studenci wymienią się swoją wiedzą, tj. zbiór wiedzy każdego z nich zostanie poszerzony o nowe elementy, których nie umiał a nauczył się od swojego rozmowcy 
 
+Zademonstruj działanie klasy odpowiednimi przykładami.
