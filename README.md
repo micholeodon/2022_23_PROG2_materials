@@ -51,3 +51,23 @@ W tym zadaniu to komputer ma za zadanie zgadnąć liczbę, którą sobie pomyśl
 Użytkownik podaje komputerowi górną granicę przeszukiwania czyli wartość zmiennej `N`. 
 Następnie, komputer podaje zaczyna zgadywać. Użytkownik odpowiada czy podana przez komputer liczba jest za duża, za mała, czy zgadł. Trwa to, do momentu aż komputer zgadnie.
 Zastosuj poznaną na zajęciach strategię bisekcji (dzielenia na pół).
+
+
+### SPOTKANIE nr 7 (1.12.2022)
+
+5. **Arabica** (łatwe)
+
+Zaprojektuj klasę przyjmującą liczbę całkowitą z zakresu 1-20 i zamieniająca je na liczbę zapisaną cyframi arabskimi.
+
+Wskazówka: nagródź się dziś dobrą kawą lub herbatką ;)
+
+6. **Tamagotchi** (trudniejsze)
+
+Tamagochi było niegdyś bardzo popularną zabawką - https://pl.wikipedia.org/wiki/Tamagotchi
+
+Zaprojektuj klasę `Zwierzątko` modelującą zachowanie wirtualnego zwierzątka, o które trzeba dbać - karmić by nie było głodne, bawić się z nim by miało dobry humor :)
+Zwierzątko powinno mieć swoje unikalne imię, stan i umieć powiedzieć jak się czuje.
+
+Zademonstruj działanie klasy na conajmniej dwóch instancjach. 
+
+Użytkownik wchodzi w interakcję z wybranym zwierzątkiem za pomocą prostego menu.
