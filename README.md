@@ -71,3 +71,52 @@ Zwierzątko powinno mieć swoje unikalne imię, stan i umieć powiedzieć jak si
 Zademonstruj działanie klasy na conajmniej dwóch instancjach. 
 
 Użytkownik wchodzi w interakcję z wybranym zwierzątkiem za pomocą prostego menu.
+
+### SPOTKANIE nr 8 (9.12.2022)
+
+7. **Filmoteka** (łatwe)
+
+Program zapisujący dane wprowadzane przez użytkownika do pliku w formacie CSV - https://pl.wikipedia.org/wiki/CSV_(format_pliku)
+
+1. Program prosi o podanie liczby rekordów (czyli wierszy do wpisania w pliku)
+1. Następnie prosi użytkownika o podanie dwóch rzeczy: nazwy filmu, a następnie wartość liczbową oceny w skali od 1.0 - 10.0 
+1. Prośba jest powtarzana tyle razy ile ma być rekordów
+1. Wpisane dane są zapisywane do pliku filmy.csv 
+1. Na końcu wyświetlana jest zawartość pliku
+1. Przykładowa zawartość pliku:
+
+```
+L.p.,Tytuł_filmu,Ocena
+1,Incepcja,8.3
+2,Room,2.9
+3,Matrix,7.6
+4,Pianista,8.3
+5,Diuna,7.7
+6,Paterson,7.1
+```
+Zwróć uwagę na nagłówek (pierwszy wiersz w pliku)!
+
+Dla sprawdzenia, stworzony plik możesz otworzyć w Excelu lub LibreOffice Calc by sprawdzić czy plik po otwarciu dobrze wpasuje się komórki arkusza kalkulacyjnego.
+
+
+
+6. **UczSie!** (trudniejsze)
+
+Program, który pomaga w powtarzaniu materiału do nauki.
+
+Użytkownik może przygotować własny zestaw pytań i poprawnych odpowiedzi w pliku tekstowym.
+Na każde pytanie powinna istnieć jedna poprawna odpowiedź. Zaletą programu jest uniwersalność - każdy może stworzyć swoje zestawy pytań w osobnych plikach (każdy plik to np. inny przedmiot) i wybierać z czego być odpytywanym w zależności od potrzeb :)
+
+Program powinien:
+
+1. Poprosić użytkownika o podanie nazwy pliku z pytaniami, który ma zostać wczytany.
+1. Wczytać wskazany plik tekstowy
+1. Poprosić użytkownika o podanie liczby pytań jaka ma być mu zadana
+1. Zadać **losowo** wybrane pytanie z listy pytań z pliku
+1. Poprosić o podanie odpowiedzi
+1. Sprawdzić czy odpowiedź poprawna. 
+1. Jeśli odpowiedź jest poprawna: dodać punkt za poprawną odpowiedź, 
+1. Jeśli odpowiedź nie jest poprawna: zdradzić jaka jest poprawna odpowiedź.
+1. Po zadaniu określonej przez użytkownika liczbie pytań powinno wyświetlić się podsumowanie. Podsumowanie powinno zawierać następujące elementy: liczbę zadanych pytań, liczbę poprawnych odpowiedzi, procent poprawnych odpowiedzi i (opcjonalnie) wskazanie pytań na które została udzielona zła odpowiedź wraz z podaniem poprawnej odpowiedzi.
+
+
