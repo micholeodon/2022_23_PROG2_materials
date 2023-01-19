@@ -21,7 +21,7 @@ wielomianu dla podanego $x$.
 
 Dzielenie łańcucha wg separatora. Użytkownik podaje łańcuch składający
 się z pięciu elementów oddzielonych przecinkiem bez spacji, a program
-zaspisuje je do pięcioelementowej krotki (5-tuple). Użyj funkcji split.
+zaspisuje je do pięcioelementowej krotki (5-tuple). Użyj funkcji `split`.
 
 4. **Słownik**
 
@@ -73,7 +73,7 @@ powinien sprawdzać, czy podana liczba jest nieujemna.
 3. **How I flirt**
 
 Napisz program, który zada użytkownikowi serię pytań, podsumuje wybrane
-przez niego odpowiedzi a następnie doradzi, wg schematu na rysunku `how_i_flirt.png`
+przez niego odpowiedzi, a następnie doradzi, wg schematu na rysunku `how_i_flirt.png`
 
 Przykładowe wyjście: 
 
@@ -97,21 +97,19 @@ do funkcji jest liczbą pierwszą.
 2. **Ciąg arytmetyczny**
 
 
-Napisz funkcję zwracającą w postaci 2-krotki n-ty wyraz ciągu
+Napisz funkcję zwracającą w postaci 2-krotki (tuple) n-ty wyraz ciągu
 arytmetycznego i sumę n-pierwszych wyrazów tego ciągu. Funkcja przyjmuje
-dwa argumenty: a~0~ i r (różnicę ciągu).
+dwa argumenty: $a_0$ (pierwszy wyraz tego ciągu) i $r$ (różnicę ciągu).
 
 3. **Urodziny**
 
 
 Napisz funkcję wyświetlającą na ekranie życzenia urodzinowe zawierające
-imię solenizanta i jej wiek na podstawie dwóch argumentów metody:
+imię solenizanta i wiek na podstawie dwóch argumentów metody:
 imienia oraz roku urodzenia. Dla uproszczenia przyjmij, że funkcja
-oblicza wiek zawsze względem roku 2023 (tj. niezaleznie od tego w którym
-roku uruchomisz program).
+oblicza wiek zawsze względem roku 2023 (tj. wynik będzie ten sam gdy uruchomisz program dziś i za 100 lat).
 
 4. **Plansza X-O**
-
 
 Napisz funkcję, która wyświetla w konsoli planszę do gry w kółko i
 krzyżyk na podstawie zawartości 9-elementowej listy, która zawiera
@@ -122,40 +120,37 @@ elementy \'X\' lub \'O\'.
 
 1. **Bity**
 
-
 Napisz klasę, która zamienia liczbę w postaci binarnej, na postać
 dziesiętną.
 
 2. **Bity 2**
-
 
 Napisz klasę, która zamienia liczbę w postaci dziesiętnej, na postać
 binarną.
 
 3. **Wektory2D**
 
-
-Napisz klasę Wektor2D, która opisuje wektor o dwóch współrzędnych. Klasa
+Napisz klasę `Wektor2D`, która opisuje wektor o dwóch współrzędnych. Klasa
 implementuje metody obliczania długości wektora, dodawania dwóch
 wektorów, obliczania iloczynu skalarnego dwóch wektorów i obliczania
 kąta między dwoma wektorami.
 
+
 4. **Rozmowa z kosmitami**
 
+Napisz dwie klasy: `Player` i `Alien`. `Player` powinien implementować metodę
+`zagadaj()`, która sprawia, że podana do niej jako argument instancja
+klasy `Alien` opowiada coś o sobie. Klasa `Alien` powinna implementować
+metodę `talk()` wywoływaną w momencie zagadania kosmity.
 
-Napisz dwie klasy: Player i Alien. Player powinien implementować metodę
-zagadaj(), która sprawia, że podana do niej jako argument instancja
-klasy Alien odpowiada coś o sobie. Klasa Alien powinna implementować
-metodę talk() wywoływaną w momencie zagadania kosmity.
 
 # V. Praca z plikami
-
 
 1. **Odczyt**
 
 Napisz program odczytujący plik linia po linii, powracający do początku
 otwartego pliku i wypisujący to jeszcze raz (w ramach JEDNEGO otwarcia
-pliku)
+pliku).
 
 
 2. **Kopiowanie**
@@ -165,16 +160,18 @@ Napisz program kopiujący zawartość wskazanego pliku do innego pliku.
 
 3. **Losowe liczby w pliku**
 
-Napisz program, który do pliku zapisze N wygenerowanych liczb losowych z
-przedziału \'\[A,B\]\'. Nazwę pliku wynikowego oraz wartości A, B, i N
+Napisz program, który do pliku zapisze $N$ wygenerowanych liczb losowych z
+przedziału $\[A, B\]$. Nazwę pliku wynikowego oraz wartości $A$, $B$, i $N$
 podaje użytkownik.
 
 
 4. **Prostokąt**
 
-Napisz program, który obliczy pole prostokąta, którego współrzędne
-wierzchołków są podane w pliku CSV. Odległość między dwoma punktami
+Napisz program, który obliczy pole prostokąta, którego współrzędne $x,y,z$
+wierzchołków są podane w pliku CSV. Odległość między dwoma punktami $A$ i $B$
 liczona jest ze wzoru:
+
+$$d(A,B) = \sqrt{(x_A-x_B)^2 + (y_A-y_B)^2 + (z_A-z_B)^2}$$
 
 
 5. **Medyczna baza danych**
@@ -182,14 +179,21 @@ liczona jest ze wzoru:
 Załóżmy, że istnieje pewien plik przechowujący następujące informacje:
 nazwisko (nie dłuższe niż 20 znaków), imię (nie dłuższe niż 20 znaków),
 następnie umieszczona jest liczba całkowita określająca wiek a następnie
-dwie liczby rzeczywiste określające wzrost i wagę. Np.: Harry Potter 33
-182.5 80.5 Załóżmy, że plik nie zawiera więcej niż 1000 takich wpisów.
-Napisz program, który
+dwie liczby rzeczywiste określające wzrost i wagę. Np.: 
+
+```
+Harry Potter 33 182.5 80.5 
+```
+Napisz program, który:
 
 -   Wyświetli na ekranie w kolejnych liniach imię, nazwisko i współczynnik masy ciała BMI każdego badanego. Dla pacjentów z nadwagą lub niedowagą wyświetlany jest dodatkowo komunikat o przekroczeniu normy.
 -   Wyświetli wpisy w porządku rosnącej wagi ciała
 -   Wyświetli wpisy w porządku alfabetycznym względem nazwisk
 -   Wyznaczy średnią wagę i średni wzrost dla wszystkich pacjentów powyżej 30 roku
+
+Współczynnik BMI liczony jest na podstawie wzrostu $h$ wyrażonego w metrach i masy ciała $m$ wyrażonej w kilogramach:
+
+$$\text{BMI} = \frac{m}{h^2} \qquad \[\frac{kg}{m^2}\]$$
 
 6. **Szyfr Cezara** 
 
