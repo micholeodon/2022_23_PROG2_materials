@@ -209,7 +209,7 @@ zmienna w kodzie (użytkownik programu nie musi podawać tej ścieżki).
 Napisz program, który stworzy katalogi dla osób badanych, których dane znajdują się w pliku badani.csv. Nazwami katalogów powinny być kody osób badanych utworzone w następujący sposób: \[ tutaj podany sposób \]
 
 
-9. **Bajzel \#1. ******
+9. **Bajzel \#1.**
 
 Napisz program, który:
 
@@ -221,7 +221,7 @@ Napisz program, który:
 -   Katalog `bajzel` znajduje się w pliku do pobrania i rozpakowania
     `bajzel.zip`.
 
-10. **Bajzel \#2. **
+10. **Bajzel \#2.**
 
 Napisz program, który:
 
