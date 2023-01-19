@@ -197,7 +197,7 @@ $$\text{BMI} = \frac{m}{h^2} \qquad \big[\frac{kg}{m^2}\big]$$
 
 6. **Szyfr Cezara** 
 
-Napisz program, który odczytuje tekst z pliku i zapisuje nowy plik z tym samym tekstem zaszyfrowany metodą Cezara. Program prosi użytkownika o podanie liczby nieujemnej N będącej przesunięciem.**
+Napisz program, który odczytuje tekst z pliku i zapisuje nowy plik z tym samym tekstem zaszyfrowany metodą Cezara. Program prosi użytkownika o podanie liczby nieujemnej $N$ będącej przesunięciem.
 
 
 7. **Rozszerzenia**
