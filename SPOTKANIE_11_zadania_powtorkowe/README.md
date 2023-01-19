@@ -208,7 +208,10 @@ zmienna w kodzie (użytkownik programu nie musi podawać tej ścieżki).
 
 8. **Kody osób badanych**
 
-Napisz program, który stworzy katalogi dla osób badanych, których dane znajdują się w pliku badani.csv. Nazwami katalogów powinny być kody osób badanych utworzone w następujący sposób: \[ tutaj podany sposób \]
+Napisz program, który stworzy katalogi dla osób badanych, których dane znajdują się w pliku `badani.csv`. Nazwami katalogów powinny być kody osób badanych utworzone w następujący sposób: 
+
+-  badany o imieniu `Michał`, nazwisku `Kowalski`, roku urodzenia `2003` otrzymuje kod `KOMI003`, 
+-  badana o imieniu `Anna`, nazwisku `Nowak`, roku urodzenia `1999` otrzymuje kod `NOAN999`.
 
 
 9. **Bajzel \#1.**
