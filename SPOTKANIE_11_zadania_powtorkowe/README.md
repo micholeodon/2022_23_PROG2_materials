@@ -71,11 +71,11 @@ liczy jego silnię, tj.
 $n! = 1 \cdot 2 \cdot 3 \cdot ... \cdot (n-1) \cdot (n-2)$. Program
 powinien sprawdzać, czy podana liczba jest nieujemna.
 
+
 3. **How I flirt**
 
-
 Napisz program, który zada użytkownikowi serię pytań, podsumuje wybrane
-przez niego odpowiedzi a następnie doradzi, wg schematu na rysunku ....
+przez niego odpowiedzi a następnie doradzi, wg schematu na rysunku `how_i_flirt.png`
 
 Przykładowe wyjście: 
 
@@ -85,6 +85,7 @@ Is he cute? Yes.
 Ok ... so you see a guy and he is cute. 
 Avoid eye contact!
 ```
+
 
 # III. Funkcje
 
@@ -187,11 +188,10 @@ dwie liczby rzeczywiste określające wzrost i wagę. Np.: Harry Potter 33
 182.5 80.5 Załóżmy, że plik nie zawiera więcej niż 1000 takich wpisów.
 Napisz program, który
 
-    1. Wyświetli na ekranie w kolejnych liniach imię, nazwisko i współczynnik masy ciała BMI każdego badanego. Dla pacjentów z nadwagą lub niedowagą wyświetlany jest dodatkowo komunikat o
-      przekroczeniu normy.
-    2. Wyświetli wpisy w porządku rosnącej wagi ciała
-    3. Wyświetli wpisy w porządku alfabetycznym względem nazwisk
-    4. Wyznaczy średnią wagę i średni wzrost dla wszystkich pacjentów powyżej 30 roku
+-   Wyświetli na ekranie w kolejnych liniach imię, nazwisko i współczynnik masy ciała BMI każdego badanego. Dla pacjentów z nadwagą lub niedowagą wyświetlany jest dodatkowo komunikat o przekroczeniu normy.
+-   Wyświetli wpisy w porządku rosnącej wagi ciała
+-   Wyświetli wpisy w porządku alfabetycznym względem nazwisk
+-   Wyznaczy średnią wagę i średni wzrost dla wszystkich pacjentów powyżej 30 roku
 
 6. **Szyfr Cezara** 
 
@@ -213,23 +213,23 @@ Napisz program, który stworzy katalogi dla osób badanych, których dane znajdu
 
 Napisz program, który:
 
--   policzy liczbę katalogów i plików w katalogu bajzel (łącznie z tymi
+-   policzy liczbę katalogów i plików w katalogu `bajzel` (łącznie z tymi
     w obecnych podkatalogach). Poprawna odpowiedź: 2 katalogi, 355
     plików.
 -   Uwaga! Dla uproszczenia dopuszczam program bez rekurencji, czyli
     żeby sprawdzał jeden poziom podkatalogów wgłąb.
--   Katalog bajzel znajduje się w pliku do pobrania i rozpakowania
-    bajzel.zip.
+-   Katalog `bajzel` znajduje się w pliku do pobrania i rozpakowania
+    `bajzel.zip`.
 
 10. **Bajzel \#2. **
 
 Napisz program, który:
 
--   Przeszuka katalog bajzel w poszukiwaniu plików o rozszerzeniu .csv
+-   Przeszuka katalog bajzel w poszukiwaniu plików o rozszerzeniu `.csv`
 -   Wyświetli liczbę tych plików (wraz z tymi w podkatalogach, bez
     rekurencji - patrz poprzednie zadanie), listę znalezionych plików
-    .csv wraz z ich względnymi scieżkami dostępu.
+    `.csv` wraz z ich względnymi scieżkami dostępu.
 -   UWAGA! Może się przydać funkcja append wbudowana w każdą listę.
 -   Katalog bajzel znajduje się w pliku do pobrania i rozpakowywania
-    bajzel.zip.
+    `bajzel.zip`.
 -   Poprawna odpowiedź: program powinien znaleźć 126 plików CSV.
