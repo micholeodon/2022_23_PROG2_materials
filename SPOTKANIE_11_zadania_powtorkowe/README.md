@@ -189,7 +189,9 @@ Napisz program, który:
 -   Wyświetli na ekranie w kolejnych liniach imię, nazwisko i współczynnik masy ciała BMI każdego badanego. Dla pacjentów z nadwagą lub niedowagą wyświetlany jest dodatkowo komunikat o przekroczeniu normy.
 -   Wyświetli wpisy w porządku rosnącej wagi ciała
 -   Wyświetli wpisy w porządku alfabetycznym względem nazwisk
--   Wyznaczy średnią wagę i średni wzrost dla wszystkich pacjentów powyżej 30 roku
+-   Wyznaczy średnią średni wzrost dla wszystkich pacjentów powyżej 30 roku życia
+
+Do sortowania może przydać się funkcja `argsort` z modułu `numpy`.
 
 Współczynnik BMI liczony jest na podstawie wzrostu $h$ wyrażonego w metrach i masy ciała $m$ wyrażonej w kilogramach:
 
