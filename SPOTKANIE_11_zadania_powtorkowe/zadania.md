@@ -1,7 +1,6 @@
-1. Typy
-=======
+# Typy
 
-**Benzyna**
+## Benzyna
 -----------
 
 Jedziesz z Torunia do Poznania (187 km). Ile benzyny musisz zatankować,
@@ -9,7 +8,7 @@ jeśli Twój samochód spala średnio 7 litrów benzyny na 100 km? Ile
 zapłacisz za potrzebną do przejazdu benzynę (6.65 zł / litr)? Napisz
 prosty program, który odpowie na postawione pytania.
 
-**Wielomian kwadratowy**
+## Wielomian kwadratowy
 ------------------------
 
 Napisz program, który oblicza wartość wielomianu
@@ -19,14 +18,14 @@ podanie wartości współczynników $a_0, a_1, ..., a_n$. Na końcu
 użytkownik podaje wartość $x$, a program liczy i wyświetla wartość
 wielomianu.
 
-**Dzielenie łańcucha**
+## Dzielenie łańcucha
 ----------------------
 
 Dzielenie łańcucha wg separatora. Użytkownik podaje łańcuch składający
 się z pięciu elementów oddzielonych przecinkiem bez spacji, a program
 zaspisuje je do pięcioelementowej krotki (5-tuple). Użyj funkcji split.
 
-**Słownik**
+## Słownik
 -----------
 
 Napisz słownik, który dla każdej z planet poniżej przechowa Twoj ciężar
@@ -49,8 +48,7 @@ wybranych planet, np:
 mojaWaga\[\"Ziemia\"\] = 77.5 mojaWaga\[\"Księżyc\"\] = 12.82625
 mojaWaga\[\"Słońce\"\] = 2162.25
 
-2. Flow (if, while, for)
-========================
+# Flow (if, while, for)
 
 **Dowolny wielomian**
 ---------------------
