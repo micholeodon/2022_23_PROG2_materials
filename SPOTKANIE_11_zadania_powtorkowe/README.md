@@ -193,7 +193,7 @@ Napisz program, który:
 
 Współczynnik BMI liczony jest na podstawie wzrostu $h$ wyrażonego w metrach i masy ciała $m$ wyrażonej w kilogramach:
 
-$$\text{BMI} = \frac{m}{h^2} \qquad \[\frac{kg}{m^2}\]$$
+$$\text{BMI} = \frac{m}{h^2} \qquad \big[\frac{kg}{m^2}\big]$$
 
 6. **Szyfr Cezara** 
 
