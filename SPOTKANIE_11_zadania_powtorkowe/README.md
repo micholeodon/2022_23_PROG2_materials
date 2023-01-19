@@ -12,14 +12,12 @@ prosty program, który odpowie na postawione pytania.
 
 
 Napisz program, który oblicza wartość wielomianu
-$a_2 x^2 + a_1 x + a_0$. Użytkownik podaje liczbę $n \geq 0$. Program
-sprawdza czy liczba jest nieujemna. Następnie prosi użytkownika o
-podanie wartości współczynników $a_0, a_1, ..., a_n$. Na końcu
+$a_2 x^2 + a_1 x + a_0$. Program prosi użytkownika o
+podanie wartości współczynników $a_0, a_1, a_2$. Na końcu
 użytkownik podaje wartość $x$, a program liczy i wyświetla wartość
-wielomianu.
+wielomianu dla podanego $x$.
 
 3. **Dzielenie łańcucha**
-
 
 Dzielenie łańcucha wg separatora. Użytkownik podaje łańcuch składający
 się z pięciu elementów oddzielonych przecinkiem bez spacji, a program
@@ -66,7 +64,7 @@ liczy i wyświetla wartość wielomianu.
 2. **Silnia**
 
 
-Napisz program, do którego użytkownik podaje liczbę nieujemną, a program
+Napisz program, do którego użytkownik podaje liczbę nieujemną `n`, a program
 liczy jego silnię, tj.
 $n! = 1 \cdot 2 \cdot 3 \cdot ... \cdot (n-1) \cdot (n-2)$. Program
 powinien sprawdzać, czy podana liczba jest nieujemna.
