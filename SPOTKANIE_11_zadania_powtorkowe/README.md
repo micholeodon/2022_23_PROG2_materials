@@ -1,6 +1,6 @@
 # I. Typy
 
-1. Benzyna
+1. **Benzyna**
 
 
 Jedziesz z Torunia do Poznania (187 km). Ile benzyny musisz zatankować,
@@ -8,7 +8,7 @@ jeśli Twój samochód spala średnio 7 litrów benzyny na 100 km? Ile
 zapłacisz za potrzebną do przejazdu benzynę (6.65 zł / litr)? Napisz
 prosty program, który odpowie na postawione pytania.
 
-1. Wielomian kwadratowy
+1. **Wielomian kwadratowy**
 
 
 Napisz program, który oblicza wartość wielomianu
@@ -18,14 +18,14 @@ podanie wartości współczynników $a_0, a_1, ..., a_n$. Na końcu
 użytkownik podaje wartość $x$, a program liczy i wyświetla wartość
 wielomianu.
 
-1. Dzielenie łańcucha
+1. **Dzielenie łańcucha**
 
 
 Dzielenie łańcucha wg separatora. Użytkownik podaje łańcuch składający
 się z pięciu elementów oddzielonych przecinkiem bez spacji, a program
 zaspisuje je do pięcioelementowej krotki (5-tuple). Użyj funkcji split.
 
-1. Słownik
+1. **Słownik**
 
 
 Napisz słownik, który dla każdej z planet poniżej przechowa Twoj ciężar
@@ -50,7 +50,7 @@ mojaWaga\[\"Słońce\"\] = 2162.25
 
 # II. Flow (if, while, for)
 
-1. Dowolny wielomian
+1. **Dowolny wielomian**
 
 
 Napisz program, który oblicza wartość wielomianu
@@ -60,7 +60,7 @@ nieujemna. Następnie prosi użytkownika o podanie wartości współczynników
 $a_0, a_1, ..., a_n$. Na końcu użytkownik podaje wartość $x$, a program
 liczy i wyświetla wartość wielomianu.
 
-1. Silnia
+1. **Silnia**
 
 
 Napisz program, do którego użytkownik podaje liczbę nieujemną, a program
@@ -68,7 +68,7 @@ liczy jego silnię, tj.
 $n! = 1 \cdot 2 \cdot 3 \cdot ... \cdot (n-1) \cdot (n-2)$. Program
 powinien sprawdzać, czy podana liczba jest nieujemna.
 
-1. How I flirt
+1. **How I flirt**
 
 
 Napisz program, który zada użytkownikowi serię pytań, podsumuje wybrane
@@ -82,20 +82,20 @@ Ok ... so you see a guy and he is cute. Avoid eye contact!
 # III. Funkcje
 
 
-1. Liczby pierwsze
+1. **Liczby pierwsze**
 
 
 Napisz metodę, która sprawdza czy liczba naturalna podana jako argument
 do funkcji jest liczbą pierwszą.
 
-1. Ciąg arytmetyczny
+1. **Ciąg arytmetyczny**
 
 
 Napisz funkcję zwracającą w postaci 2-krotki n-ty wyraz ciągu
 arytmetycznego i sumę n-pierwszych wyrazów tego ciągu. Funkcja przyjmuje
 dwa argumenty: a~0~ i r (różnicę ciągu).
 
-1. Urodziny
+1. **Urodziny**
 
 
 Napisz funkcję wyświetlającą na ekranie życzenia urodzinowe zawierające
@@ -104,7 +104,7 @@ imienia oraz roku urodzenia. Dla uproszczenia przyjmij, że funkcja
 oblicza wiek zawsze względem roku 2023 (tj. niezaleznie od tego w którym
 roku uruchomisz program).
 
-1. Plansza X-O
+1. **Plansza X-O**
 
 
 Napisz funkcję, która wyświetla w konsoli planszę do gry w kółko i
@@ -114,19 +114,19 @@ elementy \'X\' lub \'O\'.
 # IV. Klasy
 
 
-1. Bity
+1. **Bity**
 
 
 Napisz klasę, która zamienia liczbę w postaci binarnej, na postać
 dziesiętną.
 
-1. Bity 2
+1. **Bity 2**
 
 
 Napisz klasę, która zamienia liczbę w postaci dziesiętnej, na postać
 binarną.
 
-1. Wektory2D
+1. **Wektory2D**
 
 
 Napisz klasę Wektor2D, która opisuje wektor o dwóch współrzędnych. Klasa
@@ -134,7 +134,7 @@ implementuje metody obliczania długości wektora, dodawania dwóch
 wektorów, obliczania iloczynu skalarnego dwóch wektorów i obliczania
 kąta między dwoma wektorami.
 
-1. Rozmowa z kosmitami
+1. **Rozmowa z kosmitami**
 
 
 Napisz dwie klasy: Player i Alien. Player powinien implementować metodę
@@ -145,33 +145,33 @@ metodę talk() wywoływaną w momencie zagadania kosmity.
 # V. Praca z plikami
 
 
-1. Odczyt
+1. **Odczyt**
 
 
 Napisz program odczytujący plik linia po linii, powracający do początku
 otwartego pliku i wypisujący to jeszcze raz (w ramach JEDNEGO otwarcia
 pliku)
 
-1. Kopiowanie
+1. **Kopiowanie**
 
 
 Napisz program kopiujący zawartość wskazanego pliku do innego pliku.
 
-1. Losowe liczby w pliku
+1. **Losowe liczby w pliku**
 
 
 Napisz program, który do pliku zapisze N wygenerowanych liczb losowych z
 przedziału \'\[A,B\]\'. Nazwę pliku wynikowego oraz wartości A, B, i N
 podaje użytkownik.
 
-1. Prostokąt
+1. **Prostokąt**
 
 
 Napisz program, który obliczy pole prostokąta, którego współrzędne
 wierzchołków są podane w pliku CSV. Odległość między dwoma punktami
 liczona jest ze wzoru:
 
-1. Medyczna baza danych
+1. **Medyczna baza danych**
 
 
 Załóżmy, że istnieje pewien plik przechowujący następujące informacje:
@@ -181,7 +181,7 @@ dwie liczby rzeczywiste określające wzrost i wagę. Np.: Harry Potter 33
 182.5 80.5 Załóżmy, że plik nie zawiera więcej niż 1000 takich wpisów.
 Napisz program,
 
-  1.  wyświetli na ekranie w kolejnych liniach imię, nazwisko i
+  1. wyświetli na ekranie w kolejnych liniach imię, nazwisko i
     współczynnik masy ciała BMI każdego badanego. Dla pacjentów z
     nadwagą lub niedowagą wyświetlany jest dodatkowo komunikat o
     przekroczeniu normy.
@@ -190,22 +190,22 @@ Napisz program,
   4.  wyznaczy średnią wagę i średni wzrost dla wszystkich pacjentów
     powyżej 30 roku
 
-1. Szyfr Cezara. Napisz program, który odczytuje tekst z pliku i zapisuje nowy plik z tym samym tekstem zaszyfrowany metodą Cezara. Program prosi użytkownika o podanie liczby nieujemnej N będącej przesunięciem.
+1. **Szyfr Cezara. Napisz program, który odczytuje tekst z pliku i zapisuje nowy plik z tym samym tekstem zaszyfrowany metodą Cezara. Program prosi użytkownika o podanie liczby nieujemnej N będącej przesunięciem.**
 
 
-1. Rozszerzenia
+1. **Rozszerzenia**
 
 
 Napisz program wypisujący rozszerzenia wszystkich plików znajdujących
 się w dowolnie wybranym katalogu. Wybrany katalog może być wpisany jako
 zmienna w kodzie (użytkownik programu nie musi podawać tej ścieżki).
 
-1. Kody osób badanych
+1. **Kody osób badanych**
 
 Napisz program, który stworzy katalogi dla osób badanych, których dane znajdują się w pliku badani.csv. Nazwami katalogów powinny być kody osób badanych utworzone w następujący sposób: \[ tutaj podany sposób \]
 
 
-1. Bajzel \#1. 
+1. **Bajzel \#1. ******
 
 Napisz program, który:
 
@@ -217,7 +217,7 @@ Napisz program, który:
 -   Katalog bajzel znajduje się w pliku do pobrania i rozpakowania
     bajzel.zip.
 
-1. Bajzel \#2. 
+1. **Bajzel \#2. **
 
 Napisz program, który:
 
