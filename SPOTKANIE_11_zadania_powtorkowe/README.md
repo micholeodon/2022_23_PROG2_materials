@@ -99,7 +99,7 @@ do funkcji jest liczbą pierwszą.
 
 Napisz funkcję zwracającą w postaci 2-krotki (tuple) n-ty wyraz ciągu
 arytmetycznego i sumę n-pierwszych wyrazów tego ciągu. Funkcja przyjmuje
-dwa argumenty: $a_0$ (pierwszy wyraz tego ciągu) i $r$ (różnicę ciągu).
+trzy argumenty: $n$, $a_0$ (pierwszy wyraz tego ciągu) i $r$ (różnicę ciągu).
 
 3. **Urodziny**
 
