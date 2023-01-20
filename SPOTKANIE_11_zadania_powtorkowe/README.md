@@ -80,7 +80,7 @@ Przykładowe wyjście:
 ```
 You see a guy. Is he looking at you? Yes 
 Is he cute? Yes.
-Ok ... so you see a guy and he is cute. 
+Ok ... so you see a guy, he is looking at you, and he is cute. 
 Avoid eye contact!
 ```
 
