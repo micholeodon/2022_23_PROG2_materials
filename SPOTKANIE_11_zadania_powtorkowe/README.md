@@ -133,7 +133,7 @@ binarną.
 Napisz klasę `Wektor2D`, która opisuje wektor o dwóch współrzędnych. Klasa
 implementuje metody obliczania długości wektora, dodawania dwóch
 wektorów, obliczania iloczynu skalarnego dwóch wektorów i obliczania
-kąta między dwoma wektorami.
+cosinusa kąta między dwoma wektorami.
 
 
 4. **Rozmowa z kosmitami**
